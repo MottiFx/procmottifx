@@ -1,11 +1,22 @@
 # MottiFx Video Editor
 MottiFx its jus processing system shader/effect for some layer and render system too and proto schema for this project too
 
-## Our Vision
-This project is built for creators to make **wholesome, halal, and positive content**. We believe technology should be a force for good. By using this software, you join us in a commitment to:
-* Promote education and creativity.
-* Avoid the creation of harmful, deceptive, or violent media.
-* Keep the source code open and free for the community.
+## Creative Protocol: Join The Mission
+Professional software should be accessible to everyone. By choosing **MottiFx**, you're not just getting a tool—you're choosing to build your career on a **legal and ethical foundation**.
+
+### User Pledge
+By using this software, you join us in a commitment to a cleaner and more purposeful creative industry:
+
+* **Produce Halal & Beneficial Media**
+  Commit to creating content that is *Halal-compliant*, inspiring, and brings positive value to the global audience.
+* **Maintain Creative Integrity**
+  Avoid producing deceptive, harmful, or unethical media that violates universal moral standards.
+* **Support Legal Foundations**
+  Choose clean, open-source software like MottiFx to stop the cycle of piracy and build a career filled with blessings.
+
+---
+
+> **Our Vision:** This project is built for creators to make **wholesome, halal, and positive content**. We believe technology should be a force for good. By using this software, you join us in a commitment to keep the creative world ethical and the source code free for the community.
 
 ## We Social
 <div align="center">
@@ -38,13 +49,18 @@ This project is built for creators to make **wholesome, halal, and positive cont
 Its so simple, you just come in this web or release git and then download what version you want
 
 ## Developers
-If you interested and want become involved in this project,  you can join in discord and tell me what you want build for this project
+If you're interested and want to get involved, join our Dsicord. Share your ideas to make this software even more useful and better
 
-## Language
-MottiFx its build by 
-<a href="http://www.python.org" target="_blank">python v3.10+</a>
-because this language so simple for managing system ,but sometime have a bug from lib or this project, but this lang still good for some project
+## Built With Python
 
+**MottiFx** is powered by [Python v3.10+](http://www.python.org), chosen for its exceptional balance between simplicity and power. 
+
+### Why Python?
+* **Seamless System Management:** Python allows MottiFx to handle complex system-level operations with clean, readable, and maintainable code.
+* **Rapid Development:** Its vast ecosystem enables us to implement advanced multimedia features quickly and efficiently.
+* **Community & Growth:** While no software is perfect, Python's massive community ensures that any library limitations are met with constant updates and robust workarounds.
+
+We leverage Python's high-level abstractions to ensure that MottiFx remains lightweight for developers while being heavy-duty in performance.
 ## Launch
 If you download the **Release version**, you can run the app directly. But if you want to run MottiFx from **Source Code**, you should go to the **build-mottifx** repository. In that repo, we have the steps to run the project using the **Makefile** or **mottifx.sh**.
 
