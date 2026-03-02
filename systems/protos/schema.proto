@@ -1,0 +1,134 @@
+syntax = "proto3";
+
+package mottifx.project;
+
+message ProjectFile {
+  Project project                       = 1;
+  repeated Asset assets                 = 2;
+  repeated Layer layers                 = 3;
+  repeated BeatTimeLine beat_time_lines = 4;
+  repeated ColorLabel color_labels      = 5;
+
+}
+
+message Project {
+  string name                           = 1;
+  float fps                             = 2;
+  int32 width                           = 3;
+  int32 height                          = 4;
+  float duration                        = 5;
+}
+
+enum TypAss {
+  TYP_ASS_UNSPECIFIED                   = 0;
+  TYP_ASS_IMAGE                         = 1;
+  TYP_ASS_VIDEO                         = 2;
+  TYP_ASS_FRAMES                        = 3;
+  TYP_ASS_AUDIO                         = 4;
+}
+     
+message Asset {
+  string uid                            = 1;
+  string name                           = 2;
+  TypAss typass                         = 3;
+  string path                           = 4;
+  float fps                             = 5;
+  int32 width                           = 6;
+  int32 height                          = 7;
+  float duration                        = 8;
+}
+
+message BeatTimeLine {
+  string uid                            = 1;
+  float second                          = 2;
+}
+       
+message ColorLabel {
+  string uid                            = 1;
+  string name                           = 2;
+  string value                          = 3;
+  
+}
+          
+enum TypLyr {
+  TYP_LYR_UNSPECIFIED                   = 0;
+  TYP_LYR_ADJUSMENT                     = 1;
+  TYP_LYR_IMAGE                         = 2;
+  TYP_LYR_VIDEO                         = 3;
+  TYP_LYR_AUDIO                         = 4;
+  TYP_LYR_FRAMES                        = 5;
+}                
+
+message Layer {
+  string uid                            = 1;
+  string name                           = 2;
+  int64 order                           = 3;
+  TypLyr typlyr                         = 4;
+  float duration                        = 5;
+  float start                           = 6;
+  float end                             = 7;
+  float realstart                       = 8;
+  float realend                         = 9;
+  bool visible                          = 10;
+  string asset_uids                     = 11;
+  string colors                         = 12;
+  repeated Effect effects               = 13;
+}               
+
+enum TypFx {
+  TYP_FX_UNSPECIFIED                    = 0;
+  TYP_FX_TRANSFORM_2D                   = 1;
+  TYP_FX_BOKEH                          = 2;
+  TYP_FX_CHROMATIC                      = 3;
+  TYP_FX_FLIP                           = 4;
+  TYP_FX_GLOW                           = 5;
+  TYP_FX_GRAIN                          = 6;
+  TYP_FX_INVERT                         = 7;
+  TYP_FX_MSAA                           = 8;
+  TYP_FX_RAINY                          = 9;
+  TYP_FX_POSTERIZE                      = 10;
+  TYP_FX_RADIALBLUR                     = 11;
+  TYP_FX_LUMAFADE                       = 12;
+  TYP_FX_LENS_DIST                      = 13;
+  TYP_FX_SWIRL                          = 14;
+  TYP_FX_STARGLOW                       = 15;
+  TYP_FX_TURBULENT                      = 16;
+  TYP_FX_VIGNETTE                       = 17;
+  TYP_FX_SHARPEN                        = 18;
+  TYP_FX_UNSHARPMASK                    = 19;
+  TYP_FX_SMART_DENOISE                  = 20;
+  TYP_FX_HEXAGON_BLUR                   = 21;
+  TYP_FX_MOSAIC                         = 22;
+  TYP_FX_ERR_DIFFUSE                    = 23;
+  TYP_FX_EDGE                           = 24;
+  TYP_FX_CURL_DIST                      = 25;
+  TYP_FX_PIXEL_STRETCH                  = 26;
+  TYP_FX_BASICAUDIO                     = 27;
+}            
+
+message Effect {
+  string uid                            = 1;
+  int64 order                           = 2;
+  TypFx typfx                           = 3;
+  bool hide                             = 4;
+  repeated Variable variables           = 5;
+}
+         
+enum TypVar {
+  TYP_VAR_UNSPECIFIED                   = 0;
+  TYP_VAR_STR                           = 1;
+  TYP_VAR_INT                           = 2;
+  TYP_VAR_FLOAT                         = 3;
+  TYP_VAR_OPTION                        = 4;
+  TYP_VAR_TUPLE                         = 5;
+  TYP_VAR_BOOL                          = 6;
+  TYP_VAR_COLOR                         = 7;
+  TYP_VAR_MINUS                         = 8;
+}                                           
+
+message Variable {
+  string uid                            = 1;
+  string name                           = 2;
+  TypVar typvar                         = 3;
+  string value                          = 4;
+}
