@@ -13,16 +13,18 @@ This license grants you the following freedoms:
 The MottiFx Group is committed to preserving MottiFx as free software, ensuring that these freedoms remain accessible to everyone.
 
 ## 2. Your Content
-The videos you create with MottiFx are your sole property. We believe that creativity is a force for good, and we are proud to support your endeavors:
-* **Ownership:** Your creations are yours alone, and you are free to use them however you like.
-* **Commercial Use:** You may use your video content for commercial purposes without any restrictions whatsoever.
-* **Ethics:** We encourage the use of MottiFx to create content that serves a **positive, wholesome, and halal purpose**. We hope your work contributes something good to the world and is not used to create harmful, malicious, or deceptive content.
+The videos and media you create with MottiFx are your sole property. We believe that technology should be a force for good:
+
+* **Ownership:** Your creations belong to you. You retain all rights to your work.
+* **Commercial Use:** You are free to use your content for commercial purposes without any restrictions.
+* **Ethics:** We encourage creators to use MottiFx for **positive, wholesome, and constructive purposes**. Our mission is to support work that contributes value to society and upholds ethical integrity, rather than content that is harmful or deceptive.
 
 ## 3. Acceptable Use Policy
-While the source code is open for study and development, the developer emphasizes that the use of this software—whether in its original build or a modified version—must adhere to ethical standards. Users are strictly discouraged and prohibited from using this software to:
-* Create, edit, or distribute content that is illegal, pornographic, defamatory, or constitutes hate speech.
-* Engage in any activity that promotes violence, discrimination, or violates the fundamental rights of others.
-* Use the software to facilitate illegal acts or activities that violate social or moral norms.
+While the source code is open-source under the GPL v3, the use of this software—in its original or modified form—must align with high ethical standards. To maintain the project's integrity, users are strictly discouraged from using MottiFx to:
+
+* Create, edit, or distribute content that is illegal, exploitative, or promotes hate speech.
+* Engage in activities that incite violence, discrimination, or violate human dignity.
+* Use the software to facilitate deceptive acts or any content that violates universal moral and social standards.
 
 ## 4. User Responsibility & Disclaimer
 This software is provided "as is," without warranty of any kind. The developer shall not be held responsible for:
