@@ -2,8 +2,7 @@
 MottiFx its jus processing system shader/effect for some layer and render system too and proto schema for this project too
 
 
-## Our Vision
-This project is built to empower creators to produce wholesome and positive media. We believe technology should be a force for good, providing a legal and ethical foundation for everyone to build their career with integrity.
+
 
 ## We Social
 <div align="center">
