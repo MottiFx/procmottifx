@@ -1,19 +1,16 @@
 # MottiFx Video Editor
 MottiFx its jus processing system shader/effect for some layer and render system too and proto schema for this project too
 
-
-
-
 ## We Social
 <div align="center">
-    <a href="" target="_blank">
-        <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="instagram logo"  />
+    <a href="https://www.instagram.com/mottifx_" target="_blank">
+        <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="26" alt="instagram logo"  />
     </a>
     <a href="https://mottifx.vercel.app/" target="_blank">
-        <img src="https://img.shields.io/badge/website-emerald?url=https%3A//shields.io/&label=MottiFx&logo=gnome%20terminal&style=for-the-badge" height="25" alt="website logo"  />
+        <img src="https://img.shields.io/static/v1?&label=&logo=gnome%20terminal&style=for-the-badge&message=MottiFx&logoColor=white&color=emerald" height="26" alt="website logo"  />
     </a>
-    <a href="" target="_blank">
-        <img src="https://img.shields.io/discord/308323056592486420?style=for-the-badge&logo=discord&label=discord&logoColor=white&color=emerald" height="25" alt="discord logo"  />
+    <a href="https://discord.gg/UVDycdgRHM" target="_blank">
+        <img src="https://img.shields.io/static/v1?message=Discord&style=for-the-badge&logo=discord&&logoColor=white&color=blue&label=" height="26" alt="discord logo"  />
     </a>
 </div>
 
